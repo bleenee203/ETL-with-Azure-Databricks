@@ -1,3 +1,3 @@
 # The process of stream processing, ETL, and data ingestion using Azure Databricks
-![flow](https://github.com/user-attachments/assets/e83cc4b6-e1d5-42c8-8340-35c3e924dfaa)
+![flow drawio](https://github.com/user-attachments/assets/38164e0f-4900-448e-af09-02ca1e86c142)
 
