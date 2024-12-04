@@ -1,4 +1,4 @@
-<img width="662" alt="image" src="https://github.com/user-attachments/assets/5f31095c-84df-4386-8fa4-cdceb464f98d"># The process of stream processing, ETL, and data ingestion using Azure Databricks
+# The process of stream processing, ETL, and data ingestion using Azure Databricks
 This project leverages Azure cloud services to build robust, scalable, and secure data pipelines for data ingestion, processing, and transformation.
 ## About data
 The government of New York State collects information about traffic accidents occurring across the counties of the state to analyze and implement measures to reduce the likelihood of accidents and casualties on New York's roads. Every day, hundreds to thousands of accidents are recorded within the state's jurisdiction, with information being collected from various sources.
@@ -11,24 +11,29 @@ Below is the explanation of the process:
 1. Data Source:
 
 Data is initially fetched from an API endpoint (https://data.cityofnewyork.us/resource/h9gi-nx95.json), which provides JSON files containing raw accident data.
+
 2. Azure Data Factory:
 
 Azure Data Factory (ADF) is used as the ETL (Extract, Transform, Load) tool to ingest data from the API and process it. It handles raw ingestion and prepares the data for further processing and storage in Azure Data Lake.
+
 3. Azure Data Lake Storage Gen 2 (ADLS):
 
 Data is stored in Azure Data Lake following the Delta Lake architecture, divided into three layers:
 Bronze Layer: Stores raw ingested accident data.
 Silver Layer: Contains filtered and cleaned data, prepared for analysis.
 Gold Layer: Holds feature-engineered and aggregated data, ready for machine learning or direct consumption.
-3. Azure Databricks:
+
+4. Azure Databricks:
 
 Azure Databricks is used to process and transform data from the Silver layer.
 A machine learning model is trained on historical accident data to predict whether a new accident is likely to involve injuries or not. The model is deployed and used for real-time predictions.
-4. Web Applications:
+
+5. Web Applications:
 
 New traffic accident data is sent to the pipeline through the Web Application.
 The application sends raw accident data to Azure Event Hub, which acts as the message broker.
-5. Azure Event Hub:
+
+6. Azure Event Hub:
 
 Event Hub receives real-time raw data from the Web Application and forwards it to Azure Data Lake for storage in the Bronze Layer.
 The same data is also routed to Azure Databricks, where the trained machine learning model processes it and generates a prediction.
