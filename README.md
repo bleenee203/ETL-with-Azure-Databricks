@@ -68,6 +68,7 @@ This pipeline automates the ingestion, processing, and prediction of traffic acc
 ![image](https://github.com/user-attachments/assets/6a5e87d6-2d1f-455b-96b8-ddd4a990ff02)
 
 Model API
+
 ![image](https://github.com/user-attachments/assets/82728d33-13bb-4930-b2e5-8bdd3ffa320a)
 
 ###### Create an Event Hub and Stream Analytics Job to Transfer Data into a Data Lake Container
@@ -75,6 +76,8 @@ Model API
 
 ###### Develop a web page using the model's API: send requests to the cloud system, receive responses, and parse the results
 <img width="794" alt="image" src="https://github.com/user-attachments/assets/2e7d2e79-b0f4-49a9-873e-d4eaa29069b5">
+
+## Azure Technologies used: Azure Data Factory, Azure Data Lake Storage Gen 2, Azure Databricks, Azure Databricks, Azure Event Hub, Microsoft Entra ID,Azure Key Vault
 
 
 
