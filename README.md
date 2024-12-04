@@ -77,8 +77,9 @@ Model API
 ###### Develop a web page using the model's API: send requests to the cloud system, receive responses, and parse the results
 <img width="794" alt="image" src="https://github.com/user-attachments/assets/2e7d2e79-b0f4-49a9-873e-d4eaa29069b5">
 
-## Azure Technologies used: Azure Data Factory, Azure Data Lake Storage Gen 2, Azure Databricks, Azure Databricks, Azure Event Hub, Microsoft Entra ID,Azure Key Vault
-
+## Technologies used: 
+Azure Technologies used: Azure Data Factory, Azure Data Lake Storage Gen 2, Azure Databricks, Azure Databricks, Azure Event Hub, Microsoft Entra ID, Azure Key Vault
+Other: PySpark, Python, NodeJS, HTML, CSS
 
 
 
