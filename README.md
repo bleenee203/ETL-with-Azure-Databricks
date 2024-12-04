@@ -79,6 +79,7 @@ Model API
 
 ## Technologies used: 
 Azure Technologies used: Azure Data Factory, Azure Data Lake Storage Gen 2, Azure Databricks, Azure Databricks, Azure Event Hub, Microsoft Entra ID, Azure Key Vault
+
 Other: PySpark, Python, NodeJS, HTML, CSS
 
 
